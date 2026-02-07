@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #c26929, #d89c74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  padding: 25px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #6f3d2e;
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+p {
+  
+  color: #000000;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.btn {
+ display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #6f3d2e, #8b4513);
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 15px;
+  box-shadow: 0 8px 20px rgba(111, 61, 46, 0.4);
+}
+
+.hidden {
+  display: none;
+}
+
+.gif {
+  width: 220px;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+/* GAME */
+.game-area {
+  position: relative;
+  height: 260px;
+  margin-top: 20px;
+}
+
+.chocolate {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.35s ease;
+}
